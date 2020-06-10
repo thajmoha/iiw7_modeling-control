@@ -1,0 +1,40 @@
+*   Robot name                 :    KUKA LBR iiwa 14
+*	Robot version              :    5.1.1
+*   Article number             :    00 - 246 - 833
+*   Controller                 :    KUKA Sunrise
+*   Date                       :    May 18th, 2015
+*   Company                    :    KUKA Systems GmbH 
+*   Department                 :    OD-M-Simulation
+*   Creator                    :    Rico Zschacke
+*   Contact                    :    rico.zschacke@kuka.de; bernhard.haering@kuka.de
+*   Process Simulate Version   :    11.1
+*   Model version              :    2 - model with media flange pneumatic Touch
+*                                       (00-250-205)
+*
+*   important hint:
+*
+*   For the correct use of the model the 7RAxisInverse must be installed.
+*   Link at GTAC:
+*   Tecnomatix_Products/Product_updates/Planning_Applications/Robot_Controllers/
+*   Vxx.x/USER_INVERSES/7R_AXIS_INVERSE/
+*   
+*   A cycle-time analysis is currently not possible. A RCS-Controller of this 
+*   robot currently not exist.
+*
+*   This motionparameters.e file contains neither joint velocities and joint
+*   accelerations nor Cartesian velocities and Cartesian accelerations. 
+*
+*   A simulation is always based on assumptions with simplifications.
+*   This model of robot
+*
+*   - can not simulate the dynamic behaviours of a robot
+*   (e.g. oscillation and vibrations)
+*
+*   - can not support the I/O functions of the robot. (restriction in RRS1)
+*
+*   - can not support external friction and inertia.
+*   (e.g. gripper holding force, spot welding rebound etc.)
+*
+*   - can not simulate the sensitivity of the robot
+*   - can not simulate the human-robot-collaboration
+*   - can not check the safety of the robot

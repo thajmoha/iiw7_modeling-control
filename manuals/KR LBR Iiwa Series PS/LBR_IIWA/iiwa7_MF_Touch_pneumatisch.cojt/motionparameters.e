@@ -1,0 +1,12 @@
+config_family		    cf_over_head_neg;
+joint_config_family      j4	    joint_cf_pos;
+joint_config_family      j6	    joint_cf_pos;
+cart_max_lin_speed		1500;
+cart_basic_lin_speed	1500;
+linear_section          -0.1 ;
+angular_section         -0.1;
+epsilon_position        0.05;
+epsilon_orientation     0.1;
+max_no_of_divisions     0;
+default_turns 			j1 0 0.0, j2 0 0.0, j3 0 0.0, j4 0 0.0, j5 0 0.0, j6 0 0.0 , j7 0 0.0; 
+joint_default_turn  	all 0;
